@@ -1,8 +1,13 @@
 package com.xuecheng;
 
+import com.xuecheng.content.mapper.CourseCategoryMapper;
+import com.xuecheng.content.model.dto.CourseCategoryTreeDto;
+import org.junit.jupiter.api.Test;
 import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.boot.SpringApplication;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.List;
 
 /**
  * @author Mr.M
@@ -13,7 +18,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.xuecheng.content.mapper")
 @SpringBootApplication
 public class ContentApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(ContentApplication.class, args);
+
+    @Autowired
+    private CourseCategoryMapper courseCategoryMapper;
+
+    @Test
+    public void test() {
+        List<CourseCategoryTreeDto> courseCategoryTreeDtos = courseCategoryMapper.selectTreeNodes("1");
+        System.out.println(courseCategoryTreeDtos);
     }
 }

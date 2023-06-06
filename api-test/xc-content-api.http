@@ -6,3 +6,29 @@ Content-Type: application/json
   "courseName": "java",
   "publishStatus": "string"
 }
+
+### 查询课程分类
+GET {{content_host}}/content/course-category/tree-nodes
+
+### 创建课程
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+  "charge": "201001",
+  "price": 10,
+  "originalPrice":100,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": " fbdakfbkadsfn",
+  "grade": "204001",
+  "description": "啊士大夫看见那都浪费"
+}
