@@ -1,0 +1,18 @@
+2023-06-06 23:00:02,435 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/course/40", parameters={}
+2023-06-06 23:00:02,435 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - GET "/content/course/40", parameters={}
+2023-06-06 23:00:02,454 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-06-06 23:00:02,454 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2023-06-06 23:00:02,458 DEBUG [http-nio-63040-exec-5][ResourceHttpRequestHandler.java:487] - Resource not found
+2023-06-06 23:00:02,458 DEBUG [http-nio-63040-exec-5][ResourceHttpRequestHandler.java:487] - Resource not found
+2023-06-06 23:00:02,459 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2023-06-06 23:00:02,459 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 404 NOT_FOUND
+2023-06-06 23:00:02,459 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2023-06-06 23:00:02,459 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - "ERROR" dispatch for GET "/content/error", parameters={}
+2023-06-06 23:00:02,459 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-06-06 23:00:02,459 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-06-06 23:00:02,461 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-06 23:00:02,461 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-06-06 23:00:02,461 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [{timestamp=Tue Jun 06 23:00:02 CST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-06-06 23:00:02,461 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [{timestamp=Tue Jun 06 23:00:02 CST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+2023-06-06 23:00:02,462 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
+2023-06-06 23:00:02,462 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1127] - Exiting from "ERROR" dispatch, status 404
