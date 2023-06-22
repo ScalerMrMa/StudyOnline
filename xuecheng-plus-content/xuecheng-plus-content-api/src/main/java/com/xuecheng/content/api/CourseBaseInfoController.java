@@ -34,7 +34,7 @@ public class CourseBaseInfoController {
                                        @RequestBody(required = false) QueryCourseParamsDto queryCourseParamsDto) {
         PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseInfoList(pageParams,
                 queryCourseParamsDto);
-        System.out.println(courseBasePageResult);
+
         return courseBasePageResult;
     }
 
@@ -63,5 +63,13 @@ public class CourseBaseInfoController {
         Long companyId = 1232141425L;
         CourseBaseInfoDto courseBaseInfo = courseBaseInfoService.modifyCourseBaseInfo(companyId,editCourseDto);
         return courseBaseInfo;
+    }
+
+    @ApiOperation("删除课程")
+    @RequestMapping ("/course/{courseId}")
+    public void deleteCourseBase(@PathVariable Long courseId) {
+        // 获取用户所属机构的id
+        Long companyId = 1232141425L;
+        courseBaseInfoService.deleteCourseBaseInfo(companyId,courseId);
     }
 }

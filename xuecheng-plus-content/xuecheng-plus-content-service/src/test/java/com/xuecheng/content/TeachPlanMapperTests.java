@@ -1,12 +1,9 @@
 package com.xuecheng.content;
 
-import com.xuecheng.content.mapper.TeachplanMapper;
-import com.xuecheng.content.model.dto.TeachPlanDto;
+import com.xuecheng.content.service.TeachPlanService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.List;
 
 /**
  * @author MrMa
@@ -18,12 +15,11 @@ import java.util.List;
 public class TeachPlanMapperTests {
 
    @Autowired
-   TeachplanMapper teachplanMapper;
+   TeachPlanService teachPlanService;
 
    @Test
    public void test(){
-      List<TeachPlanDto> teachPlanDtos = teachplanMapper.selectTreeNodes(117L);
+      teachPlanService.deleteTeachPlan(267L);
 
-      teachPlanDtos.forEach(System.out::println);
    }
 }

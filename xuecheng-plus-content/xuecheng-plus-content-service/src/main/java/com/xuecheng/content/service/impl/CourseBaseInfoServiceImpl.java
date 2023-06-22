@@ -111,9 +111,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
       courseBase.setCompanyId(companyId);
       courseBase.setCreateDate(LocalDateTime.now());
       // 审核状态默认为未提交
-      courseBase.setStatus("202002");
+      courseBase.setStatus("203001");
       // 发布状态为未发布
-      courseBase.setAuditStatus("203001");
+      courseBase.setAuditStatus("202002");
       // 插入数据库
       int insert = courseBaseMapper.insert(courseBase);
       if (insert <= 0) {
@@ -212,6 +212,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
       return courseBaseInfoDto;
    }
 
+
    /**
     * 用于保存营销信息，逻辑：存在则更新，不存在则添加
     * @param courseMarket
@@ -246,4 +247,22 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
          return update;
       }
    }
+
+   @Override
+   public void deleteCourseBaseInfo(Long companyId, Long courseId) {
+      // 构建查询条件
+      LambdaQueryWrapper<CourseBase> lambdaQueryWrapper = new LambdaQueryWrapper<>();
+      lambdaQueryWrapper.eq(CourseBase::getCompanyId, companyId)
+              .eq(CourseBase::getId, courseId);
+      CourseBase courseBase = courseBaseMapper.selectOne(lambdaQueryWrapper);
+      if (courseBase == null) {
+         throw new XueChengPlusException("此课程你无权删除！");
+      }else {
+         int delete = courseBaseMapper.deleteById(courseId);
+         if (delete <= 0) {
+            throw new XueChengPlusException("操作失败！");
+         }
+      }
+   }
+
 }

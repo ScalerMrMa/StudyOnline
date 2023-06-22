@@ -1,5 +1,6 @@
 package com.xuecheng.content.model.dto;
 
+
 import com.xuecheng.base.exception.ValidationGroups;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
