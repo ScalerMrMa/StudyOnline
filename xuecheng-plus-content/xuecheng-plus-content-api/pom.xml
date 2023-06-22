@@ -9,6 +9,17 @@
     </parent>
     <artifactId>xuecheng-plus-content-api</artifactId>
     <dependencies>
+        <!--nacos注册中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--nacos配置中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.xuecheng</groupId>
             <artifactId>xuecheng-plus-content-service</artifactId>

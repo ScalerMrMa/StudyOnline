@@ -1,0 +1,67 @@
+2023-06-17 22:06:33,414 ERROR [restartedMain][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-06-17 22:07:53,361 ERROR [restartedMain][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config' to org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties]
+
+Action:
+
+Update your application's configuration
+
+2023-06-17 22:27:43,076 ERROR [restartedMain][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config' to org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties]
+
+Action:
+
+Update your application's configuration
+
+2023-06-17 22:28:58,226 ERROR [restartedMain][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.config' to org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.cloud.bootstrap.config.PropertySourceBootstrapProperties]
+
+Action:
+
+Update your application's configuration
+

@@ -24,6 +24,20 @@ public interface TeachPlanService {
      * 新增，修改，保存课程计划
      * @param saveTeachPlanDto
      */
-    public void SaveTeachPlan(SaveTeachPlanDto saveTeachPlanDto);
+    public void saveTeachPlan(SaveTeachPlanDto saveTeachPlanDto);
+
+    /**
+     * 根据id删除删除章节
+     * @param id
+     */
+    public void deleteTeachPlan(Long id);
+
+    /**
+     * 课程计划排序,向下移动
+     * @param id
+     */
+    public void movedown(Long id);
+
+    public void moveup(Long id);
 }
 

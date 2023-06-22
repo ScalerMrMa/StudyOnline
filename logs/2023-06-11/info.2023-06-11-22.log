@@ -1,0 +1,22 @@
+2023-06-11 23:00:01,351 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2023-06-11 23:00:01,351 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2023-06-11 23:00:01,358 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-06-11 23:00:01,358 DEBUG [http-nio-63040-exec-2][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2023-06-11 23:00:01,359 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2023-06-11 23:00:01,359 DEBUG [http-nio-63040-exec-2][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2023-06-11 23:00:01,359 DEBUG [http-nio-63040-exec-2][AbstractPlatformTransactionManager.java:370] - Creating new transaction with name [com.xuecheng.content.service.impl.CourseBaseInfoServiceImpl.queryCourseBaseInfoList]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2023-06-11 23:00:01,359 DEBUG [http-nio-63040-exec-2][AbstractPlatformTransactionManager.java:370] - Creating new transaction with name [com.xuecheng.content.service.impl.CourseBaseInfoServiceImpl.queryCourseBaseInfoList]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2023-06-11 23:00:01,360 DEBUG [http-nio-63040-exec-2][DataSourceTransactionManager.java:263] - Acquired Connection [HikariProxyConnection@742895379 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e033d38] for JDBC transaction
+2023-06-11 23:00:01,360 DEBUG [http-nio-63040-exec-2][DataSourceTransactionManager.java:263] - Acquired Connection [HikariProxyConnection@742895379 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e033d38] for JDBC transaction
+2023-06-11 23:00:01,361 DEBUG [http-nio-63040-exec-2][DataSourceTransactionManager.java:281] - Switching JDBC Connection [HikariProxyConnection@742895379 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e033d38] to manual commit
+2023-06-11 23:00:01,361 DEBUG [http-nio-63040-exec-2][DataSourceTransactionManager.java:281] - Switching JDBC Connection [HikariProxyConnection@742895379 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e033d38] to manual commit
+2023-06-11 23:00:01,361 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Creating a new SqlSession
+2023-06-11 23:00:01,361 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Creating a new SqlSession
+2023-06-11 23:00:01,361 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a4c4585]
+2023-06-11 23:00:01,361 DEBUG [http-nio-63040-exec-2][Logger.java:49] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a4c4585]
+2023-06-11 23:00:01,363 DEBUG [http-nio-63040-exec-2][Logger.java:49] - JDBC Connection [HikariProxyConnection@742895379 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e033d38] will be managed by Spring
+2023-06-11 23:00:01,363 DEBUG [http-nio-63040-exec-2][Logger.java:49] - JDBC Connection [HikariProxyConnection@742895379 wrapping com.mysql.cj.jdbc.ConnectionImpl@4e033d38] will be managed by Spring
+2023-06-11 23:00:01,363 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2023-06-11 23:00:01,363 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2023-06-11 23:00:01,364 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-06-11 23:00:01,364 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 

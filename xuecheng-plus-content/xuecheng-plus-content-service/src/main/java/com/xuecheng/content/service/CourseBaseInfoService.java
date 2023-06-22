@@ -46,4 +46,11 @@ public interface CourseBaseInfoService {
     * @return
     */
    public CourseBaseInfoDto modifyCourseBaseInfo(Long companyId, EditCourseDto editCourseDto);
+
+   /**
+    * 根据id删除课程信息
+    * @param companyId
+    * @param courseId
+    */
+   public void deleteCourseBaseInfo(Long companyId, Long courseId);
 }
