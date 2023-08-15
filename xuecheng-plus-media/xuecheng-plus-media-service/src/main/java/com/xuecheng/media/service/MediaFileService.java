@@ -6,6 +6,11 @@ import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
+import com.xuecheng.media.model.po.MediaFiles;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import java.util.List;
+
 
 /**
  * @description 媒资文件管理业务类
@@ -16,6 +21,7 @@ import com.xuecheng.media.model.po.MediaFiles;
 public interface MediaFileService {
 
  /**
+<<<<<<< HEAD
   * @param pageParams          分页参数
   * @param queryMediaParamsDto 查询条件
   * @return com.xuecheng.base.model.PageResult<com.xuecheng.media.model.po.MediaFiles>

@@ -1,0 +1,344 @@
+2023-07-21 22:52:48,461 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-07-21 22:52:48,461 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-07-21 22:52:49,281 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-21 22:52:49,281 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-21 22:52:49,365 INFO [main][GenericScope.java:295] - BeanFactory id=aae19329-5b44-39c0-bb31-aaacdc2331df
+2023-07-21 22:52:49,365 INFO [main][GenericScope.java:295] - BeanFactory id=aae19329-5b44-39c0-bb31-aaacdc2331df
+2023-07-21 22:52:49,783 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-07-21 22:52:49,783 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-07-21 22:52:49,793 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-07-21 22:52:49,793 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-07-21 22:52:49,794 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-21 22:52:49,794 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-21 22:52:49,794 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-21 22:52:49,794 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-21 22:52:49,914 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-21 22:52:49,914 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-21 22:52:49,915 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1437 ms
+2023-07-21 22:52:49,915 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1437 ms
+2023-07-21 22:52:50,060 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-21 22:52:50,060 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-21 22:52:50,126 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@2ee83775'
+2023-07-21 22:52:50,126 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@2ee83775'
+2023-07-21 22:52:50,129 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-07-21 22:52:50,129 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-07-21 22:52:50,668 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-07-21 22:52:50,668 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-07-21 22:52:50,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-07-21 22:52:50,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-07-21 22:52:50,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-07-21 22:52:50,676 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-07-21 22:52:50,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-07-21 22:52:50,693 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-07-21 22:52:50,695 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-07-21 22:52:50,695 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-07-21 22:52:50,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-07-21 22:52:50,700 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-07-21 22:52:50,702 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-07-21 22:52:50,702 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-07-21 22:52:50,703 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-07-21 22:52:50,703 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-07-21 22:52:50,704 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-07-21 22:52:50,704 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-07-21 22:52:50,706 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-07-21 22:52:50,706 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-07-21 22:52:50,708 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-07-21 22:52:50,708 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-07-21 22:52:50,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-07-21 22:52:50,709 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-07-21 22:52:50,711 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-07-21 22:52:50,711 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-07-21 22:52:50,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-07-21 22:52:50,713 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-07-21 22:52:50,716 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-07-21 22:52:50,716 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-07-21 22:52:50,718 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-07-21 22:52:50,718 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-07-21 22:52:50,720 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-07-21 22:52:50,720 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-07-21 22:52:51,031 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+2023-07-21 22:52:51,031 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+2023-07-21 22:52:51,034 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-21 22:52:51,034 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-21 22:52:51,043 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 22:52:51,043 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 22:52:51,054 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2023-07-21 22:52:51,054 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2023-07-21 22:52:51,061 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-21 22:52:51,061 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-21 22:52:51,061 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-21 22:52:51,061 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-21 22:58:40,269 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-07-21 22:58:40,269 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-07-21 22:58:40,990 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-21 22:58:40,990 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-07-21 22:58:41,060 INFO [main][GenericScope.java:295] - BeanFactory id=aae19329-5b44-39c0-bb31-aaacdc2331df
+2023-07-21 22:58:41,060 INFO [main][GenericScope.java:295] - BeanFactory id=aae19329-5b44-39c0-bb31-aaacdc2331df
+2023-07-21 22:58:41,376 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-07-21 22:58:41,376 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-07-21 22:58:41,384 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-07-21 22:58:41,384 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-07-21 22:58:41,385 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-21 22:58:41,385 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-07-21 22:58:41,385 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-21 22:58:41,385 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-07-21 22:58:41,484 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-21 22:58:41,484 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-07-21 22:58:41,484 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1200 ms
+2023-07-21 22:58:41,484 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1200 ms
+2023-07-21 22:58:41,587 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-21 22:58:41,587 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-07-21 22:58:41,650 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6f1b8544'
+2023-07-21 22:58:41,650 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@6f1b8544'
+2023-07-21 22:58:41,651 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-07-21 22:58:41,651 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-07-21 22:58:42,097 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-07-21 22:58:42,097 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-07-21 22:58:42,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-07-21 22:58:42,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-07-21 22:58:42,104 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-07-21 22:58:42,104 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-07-21 22:58:42,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-07-21 22:58:42,121 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-07-21 22:58:42,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-07-21 22:58:42,123 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-07-21 22:58:42,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-07-21 22:58:42,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-07-21 22:58:42,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-07-21 22:58:42,129 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-07-21 22:58:42,130 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-07-21 22:58:42,130 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-07-21 22:58:42,132 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-07-21 22:58:42,132 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-07-21 22:58:42,134 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-07-21 22:58:42,134 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-07-21 22:58:42,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-07-21 22:58:42,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-07-21 22:58:42,138 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-07-21 22:58:42,138 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-07-21 22:58:42,139 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-07-21 22:58:42,139 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-07-21 22:58:42,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-07-21 22:58:42,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-07-21 22:58:42,143 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-07-21 22:58:42,143 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-07-21 22:58:42,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-07-21 22:58:42,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-07-21 22:58:42,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-07-21 22:58:42,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-07-21 22:58:42,473 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+2023-07-21 22:58:42,473 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+2023-07-21 22:58:42,477 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-21 22:58:42,477 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-07-21 22:58:42,487 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 22:58:42,487 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-07-21 22:58:42,498 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2023-07-21 22:58:42,498 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'minio.bucket.video' in value "${minio.bucket.video}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2023-07-21 22:58:42,504 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-21 22:58:42,504 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-07-21 22:58:42,506 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-07-21 22:58:42,506 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
