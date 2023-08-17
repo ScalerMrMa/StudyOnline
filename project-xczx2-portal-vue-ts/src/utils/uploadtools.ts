@@ -1,6 +1,5 @@
 import { upRegister, checkchunk, upChunk, mergeChunks } from '@/api/upload'
 import CryptoJS from 'crypto-js'
-import { Message, MessageBox } from 'element-ui'
 export const uploadByPieces = ({ file, pieceSize = 5, success, error }:any) => {
     // 上传过程中用到的变量
     let fileMD5 = ""; // md5加密文件的标识
@@ -36,13 +35,8 @@ export const uploadByPieces = ({ file, pieceSize = 5, success, error }:any) => {
         }
         // 上传前提交注册 - 接口调用
         upRegister(params).then(res => {
-          if (res.code == 0 && res.result == false){
+          if (res.code == 0){
             readChunkMD5(0)
-          }else{
-            MessageBox({
-              type: 'info',
-              message: '文件已存在'
-            })
           }
         }).catch(err => error(err))
         
