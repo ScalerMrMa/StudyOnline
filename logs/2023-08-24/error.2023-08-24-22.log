@@ -1,0 +1,72 @@
+2023-08-24 23:24:15,467 ERROR [pool-2-thread-1][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video9/6/96fac8d1c42fbe84482c8a47baa55a89/96fac8d1c42fbe84482c8a47baa55a89.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url,  fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,  ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:23,388 ERROR [pool-3-thread-2][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video1/5/15536887805af775122cc454eab9d299/15536887805af775122cc454eab9d299.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url,  fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,  ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:23,410 ERROR [pool-3-thread-1][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video9/6/96fac8d1c42fbe84482c8a47baa55a89/96fac8d1c42fbe84482c8a47baa55a89.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url, errormsg, fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:31,313 ERROR [pool-4-thread-1][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video9/6/96fac8d1c42fbe84482c8a47baa55a89/96fac8d1c42fbe84482c8a47baa55a89.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url, errormsg, fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:32,214 ERROR [pool-4-thread-2][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video1/5/15536887805af775122cc454eab9d299/15536887805af775122cc454eab9d299.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url, errormsg, fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:32,890 ERROR [pool-4-thread-3][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video5/a/5ae5140fee00081e3f9e84117d8171c4/5ae5140fee00081e3f9e84117d8171c4.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url,  fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,  ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:44,181 ERROR [pool-5-thread-1][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video1/5/15536887805af775122cc454eab9d299/15536887805af775122cc454eab9d299.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url, errormsg, fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:45,360 ERROR [pool-5-thread-2][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video5/a/5ae5140fee00081e3f9e84117d8171c4/5ae5140fee00081e3f9e84117d8171c4.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url, errormsg, fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+2023-08-24 23:24:54,246 ERROR [pool-6-thread-1][VideoTask.java:132] - 上传视频失败或入库失败,视频地址:video5/a/5ae5140fee00081e3f9e84117d8171c4/5ae5140fee00081e3f9e84117d8171c4.mp4,错误信息:
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+### The error may exist in com/xuecheng/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( file_id, filename, bucket, file_path, status, create_date, finish_date, url, errormsg, fail_count )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'fail_count' in 'field list'

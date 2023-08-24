@@ -88,6 +88,12 @@
             <version>1.15</version>
         </dependency>
 
+        <!--XXL-JOB-->
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
